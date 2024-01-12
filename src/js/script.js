@@ -1,3 +1,4 @@
+
 function render() {
     const booksList = document.querySelector('.books-list');
     const bookTemplate = document.querySelector('#template-book');
@@ -19,7 +20,4 @@ function render() {
     // Zwróć wygenerowany element DOM
     return bookInstance;
   }
-  
-  // Wywołaj funkcję renderującą książki
-  render(); 
 }
